@@ -20,7 +20,7 @@ This Store Sales Prediction App is designed to help users predict stores sales b
 
 ## Model Information
 
-The prediction model is an Random Forest model trained on loan data, saved as `best_rf_model.joblib.pkl`. It predicts interest rates based on various loan and store characteristics.
+The prediction model is an Random Forest model trained on store sales data, saved as `best_rf_model.joblib.joblib`. It predicts interest rates based on store characteristics.
 
 ## Prediction and Download
 
