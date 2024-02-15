@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+cache/
+sftp_extracts/
+.pytest_cache/
+.hypothesis/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.pem
+*_token.txt
+*.zip
+global_id_to_tiktok_2024_01_20_all_years_21_22_23.json
+
+app/.DS_Store
+
+app/.pytest_cache/
+app/tests/.pytest_cache/
+app/utils/.pytest_cache/
+
+app/__pycache__/
+app/tests/__pycache__/
+app/utils/__pycache__/
+
+app/.ipynb_checkpoints/
+app/tests/.ipynb_checkpoints/
+app/utils/.ipynb_checkpoints/
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/

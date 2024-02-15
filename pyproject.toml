@@ -1,0 +1,36 @@
+[tool.pylint.messages_control]
+disable = [
+    "missing-function-docstring",
+    "missing-final-newline",
+    "missing-class-docstring",
+    "missing-module-docstring",
+    "invalid-name",
+    "too-few-public-methods",
+    "raise-missing-from",
+    "invalid-envvar-default",
+    "too-many-arguments",
+    "too-many-locals",
+    "line-too-long",
+    "ungrouped-imports",
+    "consider-using-dict-items",
+    "missing-timeout",
+    "wrong-import-position",
+    "consider-using-from-import",
+    "no-member",
+    "consider-iterating-dictionary",
+    "cell-var-from-loop",
+    "unused-variable",
+    "no-else-return",
+    "consider-using-with",
+    "wrong-import-order",
+    "protected-access",
+    "duplicate-code"
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+skip-string-normalization = true
+
+[tool.isort]
+profile = "black"
