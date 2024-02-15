@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Store Sales Prediction App is designed to help users predict stores sales based on its characteristics. It utilises a trained model to offer predictions directly within a web interface built with Streamlit.
+This Store Sales Prediction App is designed to help predict stores sales based on its area characteristics. It utilises a trained model to offer predictions directly within a web interface.
 
 ## Features
 
@@ -15,12 +15,12 @@ This Store Sales Prediction App is designed to help users predict stores sales b
 1. Navigate to the Streamlit app URL - <https://store-sales-predictor.streamlit.app/>
 2. Upload your data as a CSV file by clicking on the "Upload your input CSV file" button.
 3. The app will display a preview of the uploaded file.
-4. Click on "Predict" to generate interest rate predictions, which will be added to the DataFrame and displayed.
+4. Click on "Predict" to generate store sales predictions, which will be added to the DataFrame and displayed.
 5. Download the DataFrame with predictions by clicking on the provided link.
 
 ## Model Information
 
-The prediction model is an Random Forest model trained on store sales data, saved as `best_rf_model.joblib.joblib`. It predicts interest rates based on store characteristics.
+The prediction model is an Random Forest model trained on stores data, saved as `best_rf_model.joblib`. It predicts store sales based on store area characteristics.
 
 ## Prediction and Download
 
@@ -29,11 +29,10 @@ After processing the uploaded data, predictions are made and appended to the upl
 ## Developer Notes
 
 - Adjust the path to the model file as needed.
-- Customize categorical and numerical features based on your model's training.
-- The app's functionality can be extended or modified according to specific requirements.
+- Customise categorical and numerical features based on your model's training.
 
-### Quick Start
+## Quick Start on Local
 
-Clone this repository, install the dependencies, and run the Streamlit app using `streamlit run app.py --server.enableXsrfProtection=false --server.port=7860`.
+Clone the app's repository, install the dependencies (Python 3.11.7), and run the Streamlit app using `streamlit run app.py --server.enableXsrfProtection=false --server.port=7860`.
 
 ---
